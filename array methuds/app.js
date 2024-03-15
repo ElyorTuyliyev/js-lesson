@@ -1,0 +1,15 @@
+let text = ["GM", "FORD", "BMW", "MERSEDES", 45, ["hello", "tashkent"]];
+let arraytext0 = console.log(text[0]);
+let arraytext1 = console.log(text[1]);
+let arraytext2 = console.log(text[2]);
+let arraytext3 = console.log(text[3]);
+let arraytext4 = console.log(text[4]);
+text[0] = "Chevrolet";
+let textarray = console.log(text.toString());
+console.log(text[5][0]);
+console.log(text[5][1]);
+console.log(text.length);
+console.log(text.at(0));
+// console.log(text.pop());
+let cars = text.push("Ferrari");
+console.log(text);
