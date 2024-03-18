@@ -39,13 +39,26 @@
 // console.log(fruits.join(" .:. "));
 // console.log(fruits.concat(fruit + " salom"));
 
-var text = ["apple", "oringe", "banana"];
+var arr = ["apple", "oringe", "banana"];
 var methuds = prompt("push pop shift  unshift toString join");
-var enterText = prompt();
-var textPush = text.push(methuds);
-var textPush = text.pop(methuds);
-var textPush = text.shift(methuds);
-var textPush = text.unshift(methuds);
-var textPush = text.toString(methuds);
-var textPush = text.join(methuds);
-console.log(text);
+var enterText = prompt("Enter text ");
+
+if (methuds == "push") {
+  arr.push(enterText);
+  console.log(arr);
+} else if (methuds == "pop") {
+  arr.pop();
+  console.log(arr);
+} else if (methuds == "shift") {
+  arr.shift();
+  console.log(arr);
+} else if (methuds == "unshift") {
+  arr.unshift(enterText);
+  console.log(arr);
+} else if (methuds == "toString") {
+  console.log(arr.toString());
+} else if (methuds == "join") {
+  console.log(arr.join(enterText));
+} else {
+  console.log("There are no such array methods");
+}
