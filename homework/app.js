@@ -3,7 +3,6 @@ var surname = prompt("Enter surname");
 var age = prompt("Enter age");
 var country = prompt("Enter country");
 var city = prompt("Enter city");
-
 var person = {
   name: names,
   surname: surname,
@@ -28,7 +27,9 @@ if (age >= 18 && age <= 45) {
     "Yoshingiz yetmaganligi uchun sizga chet elga chiqishga ruxsat yo'q"
   );
 } else {
-  console.log("sizda 5 yillik deport borligi sababli chet elga boraolmeysz");
+  console.log(
+    "sizda yoshingiz yoshdan katta bo'lganligi sababli chet elga boraolmeysz"
+  );
 }
 
 if (country == "O'zbekiston") {
