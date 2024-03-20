@@ -28,7 +28,7 @@ if (age >= 18 && age <= 45) {
   );
 } else {
   console.log(
-    "sizda yoshingiz yoshdan katta bo'lganligi sababli chet elga boraolmeysz"
+    "sizni yoshingiz katta bo'lganligi sababli chet elga boraolmeysz"
   );
 }
 
