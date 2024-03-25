@@ -83,18 +83,31 @@
 // console.log(a.indexOf(4));
 // console.log(a.lastIndexOf(4));
 
-var x = numberX(2, 4, 10, 5);
-function numberX(a, s, h, z) {
-  return a * s + h / z;
-}
-console.log(x);
+// var x = numberX(2, 4, 10, 5);
+// function numberX(a, s, h, z) {
+//   return a * s + h / z;
+// }
+// console.log(x);
 
-let car = {
-  model: "BMW",
-  length: "1.9 m",
-  color: "blue",
+// let car = {
+//   model: "BMW",
+//   length: "1.9 m",
+//   color: "blue",
 
-  thebBody: "sedan",
-};
+//   thebBody: "sedan",
+// };
 
-console.log(car);
+// console.log(car);
+
+// var fruits = [
+//   { name: "apple", weight: 300 },
+//   { name: "oringe", weight: 100 },
+//   { name: "kiwi", weight: 50 },
+// ];
+
+// var objectToArr = fruits.find(fruitsWeight);
+// console.log(objectToArr.name);
+
+// function fruitsWeight(value) {
+//   return value.weight > 50 && value.weight < 300;
+// }
