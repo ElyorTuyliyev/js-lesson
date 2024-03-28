@@ -1,8 +1,8 @@
-var text = `hello world hello`;
+var text = `Salom bahor hayir qish mana keldi bahor kettibdi qish endi boshlanadi ish.`;
 var textArr = text.split(" ");
-// for (var i = 0; i < textArr.length; i++) {
-//   console.log(textArr[i], i);
-// }
+for (var i = 0; i < textArr.length; i++) {
+  console.log(textArr[i], i + 1);
+}
 // for (var key of textArr) {
 //   console.log(key);
 // }
@@ -10,10 +10,10 @@ var textArr = text.split(" ");
 //   console.log(key);
 // }
 
-for (var i = 0; i < textArr.length; i++) {
-  for (let j = i + 1; j < textArr.length; j++) {
-    if (textArr[i] == textArr[j]) {
-      console.log(textArr);
-    }
-  }
-}
+// for (var i = 0; i < textArr.length; i++) {
+//   for (let j = i + 1; j < textArr.length; j++) {
+//     if (textArr[i] == textArr[j]) {
+//       console.log(textArr);
+//     }
+//   }
+// }
