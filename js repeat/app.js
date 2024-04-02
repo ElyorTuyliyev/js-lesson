@@ -44,7 +44,3 @@ var hotResult = hot(2);
 console.log(`hot result ${hotResult}`);
 var squareResult = square(5);
 console.log(`square result ${squareResult}`);
-
-var number = `10`;
-var number2 = `20`;
-console.log(`${number}+${number2}`);
