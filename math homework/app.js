@@ -7,7 +7,6 @@ for (let i = 0; i < 6; i++) {
     match = true;
   }
 }
-
 if (match) {
   console.log(`you win`);
 } else {
