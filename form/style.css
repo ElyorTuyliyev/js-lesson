@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form__wrapper {
+  margin: 20px 0 0 0;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 50px 5px rgb(221, 220, 220);
+}
+
+.form__title {
+  font-size: 30px;
+  padding: 0 0 5px 0;
+}
+
+.form__text {
+  font-size: 16px;
+  padding: 0 0 20px 0;
+  font-style: italic;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form__input-home {
+  display: flex;
+  gap: 20px;
+}
+
+.form__input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+::placeholder {
+  color: #c4c4c4;
+  font-style: italic;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+input {
+  background-color: #f6f6f6;
+  border-color: transparent;
+  padding: 10px 10px;
+  border-radius: 30px;
+  outline: none;
+}
+
+.textarea__title {
+  font-style: italic;
+  padding: 0 0 5px 0;
+}
+
+textarea {
+  border: none;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+  resize: none;
+}
+
+.form__input-submit {
+  padding: 40px 0 0 0;
+}
+
+.form__submit {
+  background-color: rgb(184, 1, 1);
+  color: #fff;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.form__submit:hover {
+  background-color: rgb(245, 1, 1);
+}
+.form__submit:active {
+  transform: scale(0.8);
+}
+
+table {
+  margin: 50px 0 0 0;
+  width: 100%;
+}
+
+.table,
+tr,
+th,
+td {
+  border: 1px solid rgb(179, 179, 179);
+  border-collapse: collapse;
+}
+
+th {
+  color: rgb(53, 53, 53);
+  font-style: italic;
+  padding: 5px;
+}
+
+#nameCity {
+  border: 1px solid rgb(174, 173, 173);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+#number__card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+  padding: 30px 0;
+}

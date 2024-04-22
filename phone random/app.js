@@ -5,5 +5,5 @@ for (var i = 1; i <= number; i++) {
   for (var phoneList = 0; phoneList < 7; phoneList++) {
     fullPhone += Math.floor(Math.random);
   }
-  console.log();
+  console.log(fullPhone);
 }
