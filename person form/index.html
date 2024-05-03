@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form onsubmit="submitForm(event)">
+        <input id="name" type="text" placeholder="F.I.SH" />
+        <div class="lesson__wrapper">
+          <label for="lesson">Darsga kelgan yoki kelmagan </label>
+          <input id="lesson" type="checkbox" />
+        </div>
+        <div class="homework__wrapper">
+          <label for="homework">Uygavazifa bajargan yoki bajarmagan</label>
+          <input id="homework" type="checkbox" />
+        </div>
+        <input type="submit" />
+      </form>
+
+      <div class="button__wrapper">
+        <input id="comeOn" type="checkbox" onchange="filterFunction()" />
+        <br />
+        <!-- <input type="checkbox" onchange="" /> -->
+      </div>
+
+      <div class="table__wrapper">
+        <table
+          id="table"
+          border="1"
+          style="border-collapse: collapse; width: 100%"
+        >
+          <tr>
+            <th>F.I.Sh</th>
+            <th>Dars</th>
+            <th>Uygavazifa</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="res"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>

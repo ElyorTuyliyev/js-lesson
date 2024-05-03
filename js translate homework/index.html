@@ -9,14 +9,22 @@
   <body>
     <div class="container">
       <div class="form__wrapper">
-        <form onsubmit="formSubmit(event)">
-          <input
-            name="jsCode"
-            id="jsCode"
-            cols="40"
-            rows="20"
-            placeholder="Enter text"
-          />
+        <form id="form__translate" onsubmit="translateWords(event)">
+          <div id="input__wrapper">
+            <select name="language" id="language" onchange="allNumber()">
+              <option value="">Eng</option>
+              <option value="">Ru</option>
+              <option value="">Kz</option>
+            </select>
+            <input
+              name="words"
+              id="words"
+              cols="40"
+              rows="20"
+              placeholder="Enter text"
+            />
+          </div>
+          <input class="form__submit" type="submit" />
         </form>
 
         <div class="translate__wrapper"></div>

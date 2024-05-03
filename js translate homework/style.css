@@ -20,7 +20,20 @@ body {
   padding: 50px 0 0 0;
 }
 
-#jsCode {
+#input__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form__submit {
+  width: 100%;
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+#words {
   padding: 20px;
   border: 2px solid rgb(149, 149, 149);
   border-radius: 20px;
