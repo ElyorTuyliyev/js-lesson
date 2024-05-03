@@ -20,7 +20,6 @@ function submitForm(e) {
   // <td>${isCheckedLesson}</td>
   // <td>${isCheckedHomework}</td>
   // </tr>`;
-  // function comeOn() {}
 }
 
 function filterFunction(value, index, array) {
