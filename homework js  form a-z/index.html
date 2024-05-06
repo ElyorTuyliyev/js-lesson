@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>a</title>
+  </head>
+  <body>
+    <form id="form" onsubmit="personName(event)">
+      <input id="name" type="text" placeholder="name" />
+      <input type="submit" />
+    </form>
+    <select id="choose" onchange="onChangeSelect(this)">
+      <option value=""></option>
+      <option value="a-z">a-z</option>
+      <option value="z-a">z-a</option>
+      <option value="default">default</option>
+    </select>
+
+    <table id="table" border="1" style="border-collapse: collapse">
+      <tr>
+        <th>name</th>
+      </tr>
+    </table>
+    <script src="./app.js"></script>
+  </body>
+</html>
